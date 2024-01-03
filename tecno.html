@@ -1,0 +1,2996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta ht tp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=
+    =" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>tecno</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Muli, sans-serif;
+
+        }
+
+        .section_1 {
+            padding: 1px;
+            height: 150vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .header_bar {
+            padding: 1px;
+            height: 50px;
+            width: 100%;
+            /* border: 5px solid #000; */
+            background-color: rgb(12, 90, 219);
+        }
+
+        .parent {
+            height: 40px;
+            width: 700px;
+            /* border: 1px solid #000; */
+            margin-left: 90px;
+        }
+
+        .icon {
+            height: 100%;
+            width: 220px;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+            padding: 1px;
+        }
+
+        .icon_child {
+            height: 30px;
+            width: 30px;
+            /* border: 1px solid #000; */
+        }
+
+        .phone {
+            font-size: 26px;
+            color: white;
+        }
+
+        .example {
+            font-size: 16px;
+            color: white;
+            font-family: Muli, sans-serif;
+            ;
+            margin-top: -20px;
+            margin-left: 40px;
+        }
+
+        .parent_1 {
+            height: 40px;
+            width: 220px;
+            /* border: 1px solid #000; */
+            margin-left: 1050px;
+            margin-top: -40px;
+        }
+
+        .icon_1 {
+            height: 40px;
+            width: 50px;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .facebook {
+            font-size: 26px;
+            color: white;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .header_bar_1 {
+            height: 100px;
+            width: 100%;
+            /* border: 5px solid #000; */
+            padding: 1px;
+        }
+
+        .logo {
+            height: 45px;
+            width: 230px;
+            /* border: 1px solid #000; */
+            margin-left: 50px;
+            margin-top: 25px;
+        }
+
+        .logo_child {
+            height: 100%;
+            width: 100%;
+        }
+
+        .parent_2 {
+            height: 40px;
+            width: 600px;
+            /* border: 1px solid #000; */
+            margin-left: 400px;
+            margin-top: -40px;
+            padding: 1px;
+        }
+
+        .feature {
+            height: 40px;
+            width: 80px;
+            /* border: 1px solid #000; */
+            color: rgb(35, 35, 35);
+            display: inline-block;
+            vertical-align: top;
+            font-family: Muli, sans-serif;
+            ;
+            text-align: center;
+        }
+
+        .item_2 {
+            height: 40px;
+            width: 120px;
+            /* border: 1px solid #000; */
+            margin-left: 1130px;
+            margin-top: -40px;
+        }
+
+        .icon_3 {
+            height: 40px;
+            width: 40px;
+            /* border: 1px solid #000; */
+            background-color: rgb(12, 90, 219);
+            margin-left: 15px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .glass {
+            font-size: 26px;
+            margin-left: 5px;
+            margin-top: 5px;
+            color: white;
+        }
+
+        .background {
+            height: 125vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+            padding: 1px;
+            background-image: url("t122.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .text {
+            height: 500px;
+            width: 45%;
+            /* border: 1px solid red; */
+            margin-top: 00px;
+            overflow: hidden;
+        }
+
+        .text_child {
+            overflow: hidden;
+            height: 50px;
+            width: 70%;
+            /* border: 3px solid #000; */
+            margin-top: 150px;
+        }
+
+        .welcome {
+            font-size: 25px;
+            color: white;
+            margin-left: 0px;
+            transform: translateY(60px);
+            display: inline-block;
+            font-family: sans-serif;
+            animation-name: well;
+            font-weight: 900;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            /* animation-iteration-count: infinite;             */
+        }
+
+        @keyframes well {
+            0% {
+                transform: translateY(60px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+
+
+        }
+
+        .welcome1 {
+            animation-delay: 0s;
+        }
+
+        .welcome2 {
+            animation-delay: 0.2s;
+        }
+
+        .welcome3 {
+            animation-delay: 0.4s;
+        }
+
+        .welcome4 {
+            animation-delay: 0.6s;
+        }
+
+        .welcome5 {
+            animation-delay: 0.8s;
+        }
+
+        .welcome6 {
+            animation-delay: 1s;
+        }
+
+        .welcome7 {
+            animation-delay: 1.2s;
+        }
+
+        .welcome8 {
+            animation-delay: 1.4s;
+        }
+
+        .welcome9 {
+            animation-delay: 1.6s;
+        }
+
+        .welcome10 {
+            animation-delay: 1.8s;
+        }
+
+        .welcome11 {
+            animation-delay: 2s;
+        }
+
+        .welcome12 {
+            animation-delay: 2.2s;
+        }
+
+        .welcome13 {
+            animation-delay: 2.4s;
+        }
+
+        .welcome14 {
+            animation-delay: 2.6s;
+        }
+
+        .welcome15 {
+            animation-delay: 2.8s;
+        }
+
+        .welcome16 {
+            animation-delay: 3s;
+        }
+
+        .text_2 {
+            overflow: hidden;
+            height: 85px;
+            width: 80%;
+            /* border: 5px solid #000; */
+            padding: 1px;
+        }
+
+        .best {
+            font-size: 35px;
+            color: white;
+            font-family: sans-serif;
+            transform: translateY(60px);
+            font-family: 600px;
+            display: inline-block;
+            animation-name: best;
+            animation-duration: 0.8s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes best {
+            0% {
+                transform: translateY(60px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .best1 {
+            animation-delay: 0s;
+        }
+
+        .best2 {
+            animation-delay: 0.2s;
+        }
+
+        .best3 {
+            animation-delay: 0.4s;
+        }
+
+        .best4 {
+            animation-delay: 0.6s;
+        }
+
+        .best5 {
+            animation-delay: 0.7s;
+        }
+
+
+        .best6 {
+            animation-delay: 0.8s;
+        }
+
+        .best7 {
+            animation-delay: 1s;
+        }
+
+        .best8 {
+            animation-delay: 1.2s;
+        }
+
+        .best9 {
+            animation-delay: 1.4s;
+        }
+
+        .best10 {
+            animation-delay: 1.6s;
+        }
+
+        .best11 {
+            animation-delay: 1.8s;
+        }
+
+        .best12 {
+            animation-delay: 2s;
+        }
+
+        .best13 {
+            animation-delay: 2.2s;
+        }
+
+        .best14 {
+            animation-delay: 2.4s;
+        }
+
+        .best15 {
+            animation-delay: 2.6s;
+        }
+
+        .best16 {
+            animation-delay: 2.8s;
+        }
+
+        .best17 {
+            animation-delay: 3s;
+        }
+
+        .best18 {
+            animation-delay: 3.2s;
+        }
+
+        .best19 {
+            animation-delay: 3.4s;
+        }
+
+        .best20 {
+            animation-delay: 3.6s;
+        }
+
+        .best21 {
+            animation-delay: 3.8s;
+        }
+
+        .text_3 {
+            overflow: hidden;
+            height: 50px;
+            width: 500px;
+            /* border: 5px solid #000; */
+            padding: 1px;
+            animation-name: text3;
+            animation-duration: 0.8s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+
+        .best22 {
+            animation-delay: 4s;
+        }
+
+        .best23 {
+            animation-delay: 4.2s;
+        }
+
+        .best24 {
+            animation-delay: 4.4s;
+        }
+
+        .best25 {
+            animation-delay: 4.6s;
+        }
+
+        .best26 {
+            animation-delay: 4.8s;
+        }
+
+        .best27 {
+            animation-delay: 5s;
+        }
+
+        .best28 {
+            animation-delay: 5.2s;
+        }
+
+        .best29 {
+            animation-delay: 5.4s;
+        }
+
+        .best21 {
+            animation-delay: 5.6s;
+        }
+
+        .best21 {
+            animation-delay: 5.8s;
+        }
+
+        .best22 {
+            animation-delay: 6s;
+        }
+
+        .best23 {
+            animation-delay: 6.2s;
+        }
+
+        .best24 {
+            animation-delay: 6.4s;
+        }
+
+        .best25 {
+            animation-delay: 6.6s;
+        }
+
+        .best26 {
+            animation-delay: 6.8s;
+        }
+
+        .best27 {
+            animation-delay: 7s;
+        }
+
+        .best28 {
+            animation-delay: 7.2s;
+        }
+
+        .best29 {
+            animation-delay: 7.4s;
+        }
+
+        .best30 {
+            animation-delay: 7.6s;
+        }
+
+        .best31 {
+            animation-delay: 7.8s;
+        }
+
+        .best32 {
+            animation-delay: 8s;
+        }
+
+        .best33 {
+            animation-delay: 8.2s;
+        }
+
+        .best34 {
+            animation-delay: 8.4s;
+        }
+
+        .best35 {
+            animation-delay: 8.6s;
+        }
+
+        .how {
+            height: 40px;
+            width: 140px;
+            /* border: 1px solid #000; */
+            background-color: rgb(0, 43, 151);
+            font-size: 17px;
+            margin-left: 50px;
+            margin-top: 30px;
+            color: white;
+        }
+
+        .how:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .how_2 {
+            height: 40px;
+            width: 140px;
+            border: 1px solid white;
+            background-color: transparent;
+            font-size: 17px;
+            margin-left: 50px;
+            margin-top: 30px;
+            color: white;
+        }
+
+        .how_2:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .section_2 {
+            height: 137vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .outline {
+            height: 45vh;
+            width: 90%;
+            /* border: 5px solid #000; */
+            margin: auto;
+            margin-top: -180px;
+            padding: 1px;
+        }
+
+        .card {
+            height: 45vh;
+            width: 22%;
+            /* border: 1px solid black; */
+            background-color: white;
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 25px;
+            padding: 1px;
+        }
+
+        .icon_4 {
+            height: 60px;
+            width: 70px;
+            /* border: 1px solid #000; */
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .regulate {
+            font-size: 50px;
+            margin-left: 10px;
+            color: rgb(83, 138, 229);
+        }
+
+        .text_6 {
+            height: 150px;
+            width: 260px;
+            /* border: 1px solid #000; */
+            margin-top: 10px;
+
+        }
+
+        .provide {
+            font-size: 23px;
+            /* text-align: center; */
+            margin-top: 10px;
+            color: rgb(35, 35, 35);
+            font-family: Muli, sans-serif;
+            ;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .parent_4 {
+            height: 100vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+            margin-top: 10px;
+        }
+
+        .child_6 {
+            padding: 1px;
+            height: 100%;
+            width: 50%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+
+        .main_2 {
+            height: 600px;
+            width: 90%;
+            border: 5px solid red;
+        }
+
+        .circle_1 {
+            height: 400px;
+            width: 400px;
+            /* border: 1px solid #000; */
+            border-radius: 100%;
+            position: absolute;
+            left: 50px;
+            top: 20px;
+            z-index: 00px;
+            bottom: 0;
+            animation-name: animative_cir;
+            animation-duration: 1.8s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            z-index: -1;
+        }
+
+        @keyframes animative_cir {
+            0% {
+                transform: translateY(50px);
+            }
+
+            100% {
+
+                transform: translateY(100px);
+            }
+        }
+
+        .child_66 {
+            height: 350px;
+            width: 350px;
+            /* border: 2px solid #000; */
+            margin-left: 100px;
+            margin-top: 0px;
+        }
+
+        .img_1 {
+
+            height: 100%;
+            width: 100%;
+        }
+
+        .child_67 {
+            height: 350px;
+            width: 350px;
+            /* border: 2px solid #000; */
+            margin-left: 320px;
+            margin-top: -190px;
+        }
+
+        .child_7 {
+            padding: 1px;
+            height: 95%;
+            width: 49%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .year {
+            font-size: 16px;
+            font-weight: 300;
+            font-family: Muli, sans-serif;
+            color: rgb(12, 90, 219);
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        .for {
+            color: rgb(35, 35, 35);
+            font-size: 39px;
+            font-weight: 800;
+            font-family: Muli, sans-serif;
+            margin-left: 50px;
+            margin-top: 0px;
+        }
+
+        .sol {
+            font-weight: 800;
+            font-family: Muli, sans-serif;
+            font-size: 39px;
+            margin-left: 345px;
+            margin-top: -56px;
+            color: rgb(12, 90, 219);
+        }
+
+        .animation {
+            height: 20px;
+            width: 130px;
+            /* border: 1px solid #000; */
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        .animaat_child {
+            height: 5px;
+            width: 130px;
+            /* border: 1px solid/ #000; */
+            border-radius: 10px;
+            background-color: rgb(174, 198, 239);
+            margin-top: 5px;
+            padding: 1px;
+        }
+
+        .ball {
+            height: 12px;
+            width: 12px;
+            /* border: 1px solid black; */
+            border-radius: 50%;
+            background-color: rgb(12, 90, 219);
+            margin-top: -5px;
+            animation-name: ball;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ball {
+            0% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 120px;
+            }
+        }
+
+        .with {
+            font-weight: 400;
+            font-family: Muli, sans-serif;                        
+            font-size: 18px;
+            color: rgb(106, 106, 106);
+            margin-left: 50px;
+            line-height: 30px
+        }
+
+        .icon_5 {
+            height: 60px;
+            width: 60px;
+            border: 1px solid #000;
+            margin-left: 60px;
+            margin-top: 15px;
+        }
+
+        .gears {
+            /* font-weight: 400; */
+            font-size: 40px;
+            color: rgb(12, 90, 219);
+        }
+
+        .system {
+            color: rgb(35, 35, 35);
+            font-size: 20px;
+            font-weight: 700;
+            font-family: Muli, sans-serif;
+            margin-left: 150px;
+            margin-top: -80px;
+        }
+
+        .porem {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: Muli, sans-serif; 
+            color: rgb(106, 106, 106);
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+
+        .aranged {
+            margin-top: 40px;
+        }
+
+        .warrentye {
+            margin-top: -80px;
+        }
+
+        .r_m {
+            height: 40px;
+            width: 150px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            margin-left: 410px;
+            margin-top: 30px;
+            font-size: 19px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .section_3 {
+            padding: 1px;
+            height: 120vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+            background-image: url(./t139.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .folder {
+            height: 50vh;
+            width: 90%;
+            /* border: 3px solid #000; */
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .box_1 {
+            height: 49vh;
+            width: 30%;
+            border: 1px solid blue;
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 25px;
+        }
+
+        .iconic_21 {
+            height: 80px;
+            width: 80px;
+            /* border: 1px solid #000;    */
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .marketing {
+            font-size: 30px;
+            color: white;
+            font-family: Muli, sans-serif;
+            ;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .molor {
+            font-size: 18px;
+            color: white;
+            font-family: Muli, sans-serif;
+            ;
+            text-align: center;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        .marged {
+            color: white;
+            font-size: 50px;
+            margin-left: 10px;
+        }
+
+        .section_4 {
+            height: 100vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+            background-image: url("t123.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .child_8 {
+            height: 40vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .child_8_1 {
+            height: 40vh;
+            width: 50%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .member {
+            font-size: 22px;
+            margin-left: 30px;
+            margin-top: 30px;
+            color: rgb(12, 90, 219);
+        }
+
+        .awesome {
+            font-size: 45px;
+            margin-left: 30px;
+            margin-top: 0px;
+            color: rgb(35, 35, 35);
+        }
+
+        .aranged_1 {
+            margin-top: 50px;
+        }
+
+        .child_8_2 {
+            height: 40vh;
+            width: 48%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .v_a {
+            height: 50px;
+            width: 140px;
+            border: 1px solid blue;
+            background-color: blue;
+            font-size: 18px;
+            color: white;
+            margin-left: 300px;
+            margin-top: 180px;
+        }
+
+        .v_a:hover {
+            background-color: rgba(0, 0, 255, 0.521);
+            cursor: pointer;
+        }
+
+        .child_9 {
+            height: 60vh;
+            width: 100%;
+            /* border: 2px solid #000; */
+            position: relative;
+        }
+
+        .circle_9 {
+            height: 300px;
+            width: 300px;
+            /* border: 4px solid #000; */
+            /* border-radius: 100%; */
+            position: absolute;
+            left: 50px;
+            top: 210px;
+            bottom: 0;
+            animation-name: animative_cir_1;
+            animation-duration: 1.8s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            z-index: -1px;
+
+        }
+
+        @keyframes animative_cir_1 {
+            0% {
+                transform: translateY(80px);
+            }
+
+            100% {
+                transform: translateY(100px);
+            }
+        }
+
+        .heading_3 {
+            height: 60vh;
+            width: 90%;
+            /* border: 1px solid #000; */
+            margin: auto;
+        }
+
+        .card_1 {
+            height: 60vh;
+            width: 22%;
+            margin-left: 30px;
+            border: 1px solid rgba(192, 192, 192, 0.507);
+            border-radius: 8px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .pic {
+            height: 300px;
+            width: 100%;
+        }
+
+        .david {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .ceo {
+            font-size: 18px;
+            text-align: center;
+            color: rgba(0, 0, 255, 0.521);
+            margin-top: 5px;
+        }
+
+        .section_5 {
+            height: 110vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .member_1 {
+            font-size: 20px;
+            text-align: center;
+            color: rgb(12, 90, 219);
+            margin-top: 70px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .case {
+            font-size: 45px;
+            text-align: center;
+            color: black;
+            margin-top: 20px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .heading_6 {
+            padding: 1px;
+            height: 70vh;
+            width: 100%;
+            /* border: 1px solid /#000; */
+        }
+
+        .pic_13 {
+            height: 100%;
+            width: 24.7%;
+            /* border: 1px solid #000; */
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+        }
+
+        .pic_22 {
+            height: 100%;
+            width: 100%;
+        }
+
+        .pic_13:hover .content {
+            opacity: 1;
+        }
+
+        .content {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 255, 0.459);
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: top;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+
+        .mini {
+            height: 160px;
+            width: 70%;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: white;
+            position: absolute;
+            top: 250px;
+            left: 40px;
+            opacity: 0;
+            transition-duration: 0.4s;
+        }
+
+        .pic_13:hover .mini {
+            opacity: 1;
+            top: 150px;
+        }
+
+        .solution {
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            margin-top: 45px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .d_m {
+            font-size: 18px;
+            text-align: center;
+            color: rgb(12, 90, 219);
+            margin-top: 20px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .section_6 {
+            height: 90vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .pro {
+            font-size: 21px;
+            text-align: center;
+            color: rgb(12, 90, 219);
+            margin-top: 100px;
+            font-family: Muli, sans-serif;
+            
+            letter-spacing: 7px;
+        }
+
+        .o_w {
+            font-size: 45px;
+            text-align: center;
+            color: black;
+            margin-top: 10px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .aranged_3 {
+            margin-left: 600px;
+        }
+
+        .heading_7 {
+            height: 60vh;
+            width: 80%;
+            /* border: 1px solid #000; */
+            margin: auto;
+            padding: 1px;
+        }
+
+        .circle_scale {
+            height: 60vh;
+            width: 30%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 25px;    
+        }
+        .b_ball {
+            height: 140px;
+            width: 140px;
+            /* border: 1px solid #000;  */
+            background-color: rgb(206, 222, 248);
+            border-radius: 50%;
+            position: relative;
+            margin: auto;
+        }
+
+        .b_ball:hover {
+            transform: scale(1.1);
+        }
+
+
+        .m_ball {
+            height: 110px;
+            width: 110px;
+            /* border: 1px solid #000; */
+            background-color: rgb(128, 169, 236);
+            border-radius: 50%;
+            position: absolute;
+            left: 14px;
+            top: 14px;
+        }
+        .s_ball {
+            height: 70px;
+            width: 70px;
+            background-color: rgb(12, 90, 219);
+            /* border: 1px solid #000; */
+            border-radius: 50%;
+            position: absolute;
+            left: 35px;
+            top: 35px;
+        }
+        .numeric {
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .d_line {
+            height: 1px;
+            width: 225px;
+            border: 2.5px dotted rgba(0, 0, 255, 0.418);
+            margin-left: 200px;
+            margin-top: -60px;
+        }
+
+        .select {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 80px;
+            font-family: Muli, sans-serif;
+            
+        }
+
+        .techno {
+            line-height: 25px;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 30px;
+            font-family: Muli, sans-serif;
+            ;
+            color: rgb(134, 134, 134);
+        }
+
+        .regulate_1 {
+            margin-left: 80px;
+        }
+
+        .regulate_2 {
+            margin-top: 20px;
+        }
+
+        .section_7 {
+            padding: 1px;
+            height: 80vh;
+            width: 100%;
+            /* border: 2px solid #000; */
+            background-image: url("t134.png");
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(12, 90, 219);
+        }
+
+        .value {
+            font-family: Muli, sans-serif;
+            ;
+            font-size: 25px;
+            color: white;
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+
+        .request {
+            font-size: 40px;
+            color: white;
+            margin-left: 100px;
+            margin-top: 20px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .j_W_N {
+            height: 45px;
+            width: 180px;
+            /* border: 1px solid #000; */
+            font-size: 20px;
+            color:  rgb(12, 90, 219);
+            margin-left: 100px;
+            margin-top: 20px;
+            font-family: Muli, sans-serif;
+            
+        }
+
+        .j_W_N :hover{
+            background-color:rgba(23, 23, 59, 0.897);
+            cursor: pointer;
+        
+        }
+
+        .m_play {
+            height: 100px;
+            width: 100px;
+            /* border: 3px solid white; */
+            /* background-color: white; */
+            border-radius: 50%;
+            position: relative;
+            left: 1050px;
+            top: -160px;
+        }
+
+        .play_3 {
+            height: 100px;
+            width: 100px;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            animation-name: m_play;
+            animation-duration: 1.5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes m_play {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1.4);
+                opacity: 0;
+            }
+        }
+
+        .play_2 {
+            height: 100px;
+            width: 100px;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .edit {
+            color: rgb(12, 90, 219);
+            font-size: 35px;
+            position: absolute;
+            left: 35px;
+            top: 30px;
+        }
+
+        .section_8 {
+            height: 140vh;
+            width: 100%;
+            /* border: 1px solid #000/; */
+        }
+
+        .parent_5 {
+            height: 260px;
+            width: 80%;
+            /* border: 1px solid #000; */
+            border-radius: 10px;
+            margin: auto;
+            background-image: url("t135.jpg");
+            background-position: center;
+            background-size: contain;
+            /* background-color: black; */
+            margin-top: -50px;
+        }
+
+        .card_2 {
+            height: 80%;
+            width: 21%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 30px;
+            margin-top: 20px;
+            border-left: 1px solid rgb(12, 90, 219);
+
+        }
+
+        .paras {
+            font-size: 50px;
+            text-align: center;
+            font-family: Muli, sans-serif;
+            ;
+            margin-top: 80px;
+        }
+
+        .happy {
+            font-size: 20px;
+            text-align: center;
+            font-family: Muli, sans-serif;
+            color:  rgb(12, 90, 219);
+            margin-top: 10px;
+            font-weight: 400;
+        }
+
+        .parent_66 {
+            height: 700px;
+            width: 100%;
+            /* border: 7px solid #000; */
+            margin-top: 10px;
+        }
+
+        .test {
+            letter-spacing: 10px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            color: rgb(12, 90, 219);
+            margin-top: 10px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .says {
+            text-align: center;
+            font-size: 45px;
+            margin-top: 4px;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .regulater {
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .heading_8 {
+            height: 68vh;
+            width: 90%;
+          /* /  border: 1px solid #000; */
+            margin: auto;
+        }
+
+        .card_3 {
+            height: 68vh;
+            width: 28%;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            padding: 1PX;
+        }
+
+        .card_3_3 {
+            height: 230px;
+            width: 90%;
+            border: 1.2px solid silver;
+            border-radius: 7px;
+            margin: auto;
+            position: relative;
+        }
+
+        .loram {
+            font-size: 18px;
+            color: rgb(112, 112, 112);
+            /* text-align: center;    */
+            font-family: Muli, sans-serif;
+            ;
+            position: absolute;
+            top: 80px;
+            left: 35px;
+        }
+
+        .parent_main_1 {
+            height: 185px;
+            width: 300px;
+            /* border: 1px solid #000; */
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .photo {
+            height: 100px;
+            width: 100px;
+            /* /border: 1px solid #000; */
+            border-radius: 50%;
+        }
+
+        .side_card_1 {
+            height: 180px;
+            width: 220px;
+            /* border: 1px solid red; */
+            margin-left: 100px;
+            margin-top: -100px;
+        }
+
+        .p_star {
+            height: 40px;
+            width: 200px;
+           /* / border: 2px solid #000; */
+            margin-top: 40px;
+        }
+
+        .c_star {
+            height: 35px;
+            width: 35px;
+            /* border: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .star {
+            font-size: 24px;
+            color: rgb(12, 90, 219);
+            /* background-color:  rgb(12, 90, 219); */
+        }
+
+        .star_1 {
+            font-size: 24px;
+            color: silver;
+        }
+
+        .jamal {
+            font-size: 20px;
+            font-weight: 700;
+            color: black;
+            margin-top: 15px;
+            font-family: Muli, sans-serif;;
+        }
+
+        .manager {
+            font-size: 20px;
+            color: rgb(12, 90, 219);
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: Muli, sans-serif;
+        }
+        .section_9 {
+            height: 130vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+            background-color: rgb(12, 90, 219);
+
+        }
+
+        .img_22_1 {
+            height: 300px;
+            width: 250px;
+            /* border: 1px solid #000; */
+            margin-left: 1100px;
+            margin-top: 20px;
+            padding: 1px;
+        }
+
+        .img_22 {
+            height: 80%;
+            width: 100%;
+            animation-name: img_22;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes img_22 {
+            0% {
+                margin-top: 0px;
+            }
+
+            100% {
+                margin-top: 60px;
+            }
+        }
+
+        .text_5 {
+            height: 200px;
+            width: 300px;
+            /* border: 1px solid #000; */
+            margin: auto;
+            margin-top: -250px;
+        }
+
+        .get_1 {
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            color: white;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .an {
+            font-weight: 700;
+            font-size: 39px;
+            margin-top: 15px;
+            text-align: center;
+            color: white;
+            font-family: Muli, sans-serif;
+            ;
+        }
+
+        .aranged_5 {
+            margin-left: 30px;
+        }
+
+        .marged_1 {
+            height: 370px;
+            width: 1090px;
+            margin-left: -400px;
+            margin-top: 100px;
+            /* border: 3px solid #000; */
+        }
+
+        .n_1 {
+            height: 45px;
+            width: 500px;
+            /* margin-top: 70px; */
+            margin-left: 20px;
+            background-color: rgba(255, 255, 255, 0.322);
+            border: 1px solid rgba(255, 255, 255, 0.212);
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: Muli, sans-serif;
+            font-weight: 400;
+            padding-left: 20px;    
+        }
+        .n_1::placeholder{
+            color: white;
+        }
+        .n_2 {
+            height: 45px;
+            width: 500px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: rgba(255, 255, 255, 0.322);
+            border: 1px solid rgba(255, 255, 255, 0.212);
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: Muli, sans-serif;
+             font-weight: 400;    
+            padding-left: 20px;
+        }
+        .n_2::placeholder{
+            color: white;
+        }
+
+        .text_334 {
+            height: 220px;
+            width: 1020px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: rgba(255, 255, 255, 0.322);
+            border: 1px solid rgba(255, 255, 255, 0.212);
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: Muli, sans-serif;
+             font-weight: 400;    
+            padding-left: 20px;
+            
+
+        }
+        .text_334::placeholder{
+            color: white;
+        }
+
+        .free {
+            height: 50px;
+            width: 220px;
+            margin: auto;
+            /* background-co/lor: white; */
+            border: 1px solid blue;
+            border-radius: 6px;
+            margin-top: 30px;
+            font-size: 16px;
+            font-family: Muli, sans-serif;
+             font-weight: 400;    
+            padding-left: 20px;
+            
+        }
+
+        .free:hover {
+            background-color: blue;
+            cursor: pointer;
+            color: white;
+        }
+
+        .section_10 {
+            height: 130vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .con_1 {
+            height: 40vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+            padding: 1px;
+        }
+
+        .parent_7 {
+            height: 35vh;
+            width: 25%;
+            /* border: 1px solid #000; */
+            margin-left: 120px;
+        }
+
+        .latest {
+            font-size: 19px;
+            margin-top: 80px;
+            color: rgb(12, 90, 219);
+            font-family: Muli, sans-serif;
+            letter-spacing: 4px;
+            font-size: 16px;
+            font-family: Muli, sans-serif;
+             font-weight: 700;    
+         
+        }
+
+        .seen_22{
+            color: black;
+            font-size: 39px;
+            font-weight: 800;    
+            font-family: Muli, sans-serif;;
+         
+        }
+
+        .aranged_6 {
+            margin-left: -50px;
+        }
+
+        .see_1 {
+            height: 50px;
+            width: 200px;
+            border: 1px solid white;
+            margin-left: 860px;
+            margin-top: -20px;
+            border-radius: 5px;
+            background-color: rgb(12, 90, 219);
+            color: white;
+        }
+
+        .see_1:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .parent_8 {
+            height: 90vh;
+            width: 90%;
+            /* border: 1px solid #000; */
+            margin: auto;
+        }
+
+        .card_4 {
+            height: 100%;
+            width: 32.5%;
+            border: 1px solid silver;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .img_3_1 {
+            height: 280px;
+            width: 100%;
+            /* border: 1px solid #000; */
+            position: relative;
+        }
+
+        .img_3_2 {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .word {
+            height: 30px;
+            width: 130px;
+            background-color: rgb(12, 90, 219);
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            border-radius: 5px;
+        }
+
+        .text_7 {
+            font-family: Muli, sans-serif;
+            font-weight: 700;
+            font-size: 10px;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .techno_1 {
+            height: 30px;
+            width: 270px;
+            /* border: 1px solid #000; */
+            margin-top: 10px;
+        }
+
+        .oct_1 {
+            height: 15px;
+            width: 100px;
+            /* border: 1px solid #000; */
+            /* border-right: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .tec_5 {
+            font-size: 18px;
+            text-align: center;
+            color: rgb(122, 97, 122);
+        }
+
+        .tec_5:hover {
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .tec_6 {
+            font-size: 18px;
+            text-align: center;
+            color: rgb(122, 97, 122);
+        }
+
+        .tec_6:hover {
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .oct_2 {
+            height: 15px;
+            width: 100px;
+            /* border: 1px solid #000; */
+            /* bo rder-right: 1px solid #000; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .use {
+            font-size: 21px;
+            margin-left: 20px;
+            font-family: Muli, sans-serif;
+            font-family: 700;
+            transition: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+        }
+
+        .use:hover {
+            color: rgb(12, 90, 219);
+            cursor: pointer;
+        }
+
+        .digital {
+            font-size: 16px;
+            margin-left: 20px;
+            color: rgb(122, 97, 122);
+            font-family: Muli, sans-serif;
+            font-weight: 400;
+            margin-top: 15px;
+            line-height: 30px;
+        }
+
+        .more {
+            font-size: 16px;
+            margin-left: 20px;
+            color: black;
+            font-family: Muli, sans-serif;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+
+        .more:hover {
+            color: rgb(12, 90, 219);
+            cursor: pointer;
+        }
+
+        .section_11 {
+            height: 100vh;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .parent_77 {
+            height: 10vh;
+            width: 70%;
+            /* border: 1px solid #000; */
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 25px;
+            background-color: white;
+        }
+
+        .parent_9 {
+            padding: 1px;
+            height: 230px;
+            width: 100%;
+            background-color: rgb(12, 90, 219);
+            /* border: 3px solid black; */
+            
+        }
+
+        .sub {
+            font-family:  Muli, sans-serif;
+            font-weight: 700;
+            font-size: 31px;
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .e_y_e {
+            padding: 1px;
+            height: 100%;
+            width: 20%;
+            border: none;
+            /* border: 1px solid #000; */
+            border-radius: 10px;
+            /* margin-top: 30px; */
+            font-size: 20px;
+        }
+
+        .sub_1 {
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            border: 1px solid rgb(12, 90, 219);
+            margin-left: 550px;
+            background-color: rgb(12, 90, 219);
+            font-size: 20px;
+            color: white;
+        }
+
+        .sub_1:hover {
+            cursor: pointer;
+            background-color: rgba(12, 91, 219, 0.671);
+        }
+
+        .parent_10 {
+            height: 100vh;
+            width: 100%;
+            /* border: 1px solid yellow; */
+            background-image: url("t145.jpg");
+            background-position: center;
+            background-size: cover;
+            padding: 1px;
+        }
+
+        .part {
+            height: 300px;
+            width: 300px;
+            /* border: 1px solid #000; */
+            margin-left: 70px;
+            margin-top: 70px;
+        }
+
+        .part_1 {
+            height: 45px;
+            width: 190px;
+            /* border: 1px solid #000; */
+            margin: auto;
+        }
+
+        .stra {
+            font-size: 16px;
+            font-weight: 400;
+            font-family:  Muli, sans-serif;
+            color: white;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        .us {
+            font-family:  Muli, sans-serif;
+            font-size: 23px;
+            color: white;
+            margin-top: 40px;
+            font-weight: 300;
+            margin-left: 30px;
+        }
+
+        .part_2 {
+            height: 40px;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+
+        .social {
+            height: 90%;
+            width: 16%;
+            /* border: 1px solid #000; */
+            border-radius: 5px;
+            background-color: rgb(12, 90, 219);
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 13px;
+            margin-top: 20px;
+            padding: 1px;
+        }
+
+        .fb_22 {
+            font-size: 32px;
+            color: white;
+            margin-left: 7px;
+        }
+
+        .child_12 {
+            height: 300px;
+            width: 200px;
+            /* border: 1px solid #000; */
+            margin-left: 380px;
+            margin-top: -300px;
+        }
+
+        .quick {
+            font-family:  Muli, sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            color: white;
+            /* text-align: center; */
+        }
+
+        .link {
+            font-family:  Muli, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            list-style: none;
+            color: white;
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+
+        .child_13 {
+            height: 370px;
+            width: 350px;
+            /* border: 2px solid #000; */
+            margin-left: 600px;
+            margin-top: -300px;
+            list-style: none;
+        }
+        .quick_33{
+            font-family:  Muli, sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            color: white;
+            margin-top: 30px;
+            
+        }
+        .post_1 {
+            height: 100px;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.603);
+            
+        }
+
+        .t-1 {
+            height: 80px;
+            width: 80px;
+            /* border: 1px solid #000;    */
+            border-radius: 10px;
+            margin-left: 5px;   
+            margin-top: 45px;   
+        }
+        .pho {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+          }
+
+        .tik {
+            font-family:  Muli, sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: white;
+            margin-left: 100px;
+            margin-top: -80px;
+        }
+
+        .oct_3 {
+            font-size: 15px;
+            color: silver;
+            margin-left: 100px;
+            margin-top: 15px;
+            font-weight: 400;
+            font-family: Muli, sans-serif;;
+        }
+
+        .child_15 {
+            height: 370px;
+            width: 250px;
+            /* border: 1px solid #000;// */
+            margin-left: 980px;
+            margin-top: -400px;
+            list-style: none;
+        }
+
+        .part_22 {
+            height: 100px;
+            width: 100%;
+            /* border: 1px solid #000; */
+        }
+        .quick_1{
+            font-family: Muli, sans-serif;;
+            font-weight: 700;
+            font-size: 22px;
+            margin-left: -10px;
+            color: white;
+        }
+
+        .LOC {
+            margin-top: 20px;
+            font-family: Muli, sans-serif;;
+            font-weight: 700;
+            font-size: 20px;
+            color: white;
+        }
+
+        .city {
+            margin-top: 20px;
+            font-family: Muli, sans-serif;;
+            font-weight: 700;
+            color: silver;
+            margin-top:20px;
+        }
+
+        .last {
+            height: 110px;
+            width: 100%;
+            /* border: 2px solid yellow; */
+            margin-top: 20px;
+        }
+
+        .line {
+            height: 1px;
+            width: 80%;
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .reserved {
+            font-size: 16px;
+            color: silver;
+            margin-top: 15px;
+            margin-left: 130px;
+            font-weight: 300;
+     
+        }
+
+        .plicy {
+            font-size: 17px;
+            color: silver;
+            margin-top: 10px;
+           margin-left: 800px;
+           font-weight: 300;
+     
+        }
+
+        .plicy_1 {
+            font-size: 17px;
+            color: silver;
+            margin-top: -20px;
+            margin-left: 950px;
+            font-weight: 300;
+     
+        }
+
+        .plicy_2 {
+            font-size: 17px;
+            color: silver;
+            margin-top: -20px;
+            margin-left: 1150px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section_1">
+        <div class="header_bar">
+            <div class="parent">
+                <li class="icon">
+                    <div class="icon_child">
+                        <i class="fa-solid fa-envelope phone"></i>
+                    </div>
+                    <p class="example">example@example.com</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_child">
+                        <i class="fa-solid fa-map phone"></i>
+                    </div>
+                    <p class="example">2/20, Astern Road, USA</p>
+                </li>
+                <li class="icon">
+                    <div class="icon_child">
+                        <i class="fa-solid fa-phone phone"></i>
+                    </div>
+                    <p class="example">+880 320 432 242</p>
+                </li>
+            </div>
+            <div class="parent_1">
+                <li class="icon_1">
+                    <i class="fa-brands fa-facebook facebook"></i>
+
+                </li>
+                <li class="icon_1">
+                    <i class="fa-brands fa-square-twitter facebook"></i>
+                </li>
+                <li class="icon_1">
+                    <i class="fa-brands fa-instagram facebook"></i>
+                </li>
+                <li class="icon_1">
+                    <i class="fa-solid fa-magnifying-glass facebook"></i>
+                </li>
+            </div>
+        </div>
+        <div class="header_bar_1">
+            <div class="logo">
+                <img class="logo_child" src="./t116.png" alt="">
+                <div class="parent_2">
+                    <li class="feature">Home</li>
+                    <li class="feature">company</li>
+                    <li class="feature">Services</li>
+                    <li class="feature">Pages</li>
+                    <li class="feature">Elements</li>
+                    <li class="feature">Blog</li>
+                    <li class="feature">Contact</li>
+                </div>
+            </div>
+            <div class="item_2">
+                <li class="icon_3">
+                    <i class="fa-solid fa-magnifying-glass glass"></i>
+                </li>
+                <li class="icon_3">
+                    <i class="fa-solid fa-store glass"></i>
+                </li>
+            </div>
+        </div>
+        <div class="background">
+            <div class="text">
+                <div class="text_child">
+
+                    <h2 class="welcome welcome1">W</h2>
+                    <h2 class="welcome welcome2">E</h2>
+                    <h2 class="welcome welcome3">L</h2>
+                    <h2 class="welcome welcome4">L</h2>
+                    <h2 class="welcome welcome5">C</h2>
+                    <h2 class="welcome welcome6">O</h2>
+                    <h2 class="welcome welcome7">M</h2>
+                    <h2 class="welcome welcome8">E</h2>
+                    <h2 class="welcome welcome9">&nbsp; T</h2>
+                    <h2 class="welcome welcome10">O</h2>
+                    <h2 class="welcome welcome11">&nbsp; T</h2>
+                    <h2 class="welcome welcome12">E</h2>
+                    <h2 class="welcome welcome13">C</h2>
+                    <h2 class="welcome welcome14">H</h2>
+                    <h2 class="welcome welcome15">N</h2>
+                    <h2 class="welcome welcome16">O</h2>
+                </div>
+                <div class="text_2">
+                    <h1 class="best best1 ">W</h1>
+                    <h1 class="best best2">E</h1>
+                    <h1 class="best best3">&nbsp; A</h1>
+                    <h1 class="best best4">R</h1>
+                    <h1 class="best best5">E</h1>
+                    <h1 class="best best6">&nbsp; C</h1>
+                    <h1 class="best best7">R</h1>
+                    <h1 class="best best8">E</h1>
+                    <h1 class="best best9">A</h1>
+                    <h1 class="best best10">T</h1>
+                    <h1 class="best best11">I</h1>
+                    <h1 class="best best12">V</h1>
+                    <h1 class="best best13">E</h1>
+                    <h1 class="best best14">&nbsp; A</h1>
+                    <h1 class="best best15">G</h1>
+                    <h1 class="best best16">E</h1>
+                    <h1 class="best best17">N</h1>
+                    <h1 class="best best18">E</h1>
+                    <h1 class="best best19">C</h1>
+                    <h1 class="best best20">Y</h1>
+                </div>
+                <div class="text_3">
+                    <h1 class="best best21">&nbsp; F</h1>
+                    <h1 class="best best22">O</h1>
+                    <h1 class="best best23">R</h1>
+                    <h1 class="best best24">&nbsp; Y</h1>
+                    <h1 class="best best25">O</h1>
+                    <h1 class="best best26">U</h1>
+                    <h1 class="best best27">R</h1>
+                    <h1 class="best best28">&nbsp; B</h1>
+                    <h1 class="best best29">U</h1>
+                    <h1 class="best best30">S</h1>
+                    <h1 class="best best31">I</h1>
+                    <h1 class="best best32">N</h1>
+                    <h1 class="best best33">E</h1>
+                    <h1 class="best best34">S</h1>
+                    <h1 class="best best35">S</h1>
+                </div>
+                <button class="how">How IT Works</button>
+                <button class="how_2">IT Services </button>
+            </div>
+        </div>
+    </section>
+    <section class="section_2">
+        <div class="outline">
+            <li class="card">
+                <div class="icon_4">
+                    <i class="fa-brands fa-cloudversify regulate"></i>
+                </div>
+                <div class="text_6">
+                    <h1 class="provide">provide all kind of IT services</h1>
+                </div>
+            </li>
+            <li class="card">
+                <div class="icon_4">
+                    <i class="fa-regular fa-address-card regulate"></i>
+                </div>
+                <div class="text_6">
+                    <h1 class="provide">solution for all IT security</h1>
+                </div>
+
+
+            </li>
+            <li class="card">
+                <div class="icon_4">
+                    <i class="fa-brands fa-searchengin regulate"></i>
+                </div>
+                <div class="text_6">
+                    <h1 class="provide">All IT Condsultency Solution</h1>
+                </div>
+
+            </li>
+            <li class="card">
+                <div class="icon_4">
+                    <i class="fa-solid fa-users-gear regulate"></i>
+                </div>
+                <div class="text_6">
+                    <h1 class="provide">Best Experience Engineer</h1>
+                </div>
+            </li>
+        </div>
+        <div class="parent_4">
+            <div class="child_6">
+
+
+
+                <div class="child_66">
+                    <img class="img_1" src="./t122.jpg" alt="">
+                </div>
+                <div class="child_67">
+                    <img class="img_1" src="./t121.jpg" alt="">
+                </div>
+
+
+                <img class="circle_1" src="./t119.png" alt="">
+
+
+            </div>
+            <div class="child_7">
+                <p class="year">30 YEARS OF EXPERIENCE</p>
+                <h1 class="for">Preparing For Your Success <br>
+                    Provide Best</h1>
+                <h1 class="sol"> IT Solution</h1>
+                <div class="animation">
+                    <div class="animaat_child">
+                        <div class="ball"> </div>
+                    </div>
+                </div>
+
+                <p class="with">We are privileged to work with hundred future-thinking awesome <br> businesses including
+                    many of the world’s top hardware and get <br> IT service for your technology. </p>
+
+                <div class="icon_5">
+                    <i class="fa-solid fa-gears gears"></i>
+                </div>
+                <h1 class="system">Quality Control System</h1>
+                <p class="porem">
+                    Porem Ipsum is simply dummy text of the printing <br> and presetting found best quality for
+                    business.</p>
+
+
+
+                <div class="icon_5 aranged">
+                    <i class="fa-solid fa-hand-holding-dollar gears"></i>
+                </div>
+                <h1 class="system warrentye">Warrenty managment</h1>
+                <p class="porem">
+                    Morem Ipsum is simply dummy text of the printing <br> and presetting found it agency business.
+                </p>
+                <button class="r_m">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="section_3">
+        <div class="folder">
+            <li class="box_1">
+                <div class="iconic_21">
+                    <i class="fa-solid fa-user marged"></i>
+                </div>
+                <h1 class="marketing">Marketing Strategy</h1>
+                <p class="molor">Porem asum molor sit amet, consectetur <br> adipiscing do miusmod tempor.</p>
+            </li>
+            <li class="box_1">
+                <div class="iconic_21">
+                    <i class="fa-solid fa-pen-nib marged"></i>
+                </div>
+                <h1 class="marketing">Interior design</h1>
+                <p class="molor">Porem asum molor sit amet, consectetur <br> adipiscing do miusmod tempor.</p>
+            </li>
+            <li class="box_1">
+                <div class="iconic_21">
+                    <i class="fa-solid fa-users-gear marged"></i>
+                </div>
+                <h1 class="marketing">Digital services</h1>
+                <p class="molor">Porem asum molor sit amet, consectetur <br> adipiscing do miusmod tempor.</p>
+            </li>
+        </div>
+
+
+        <div class="folder">
+            <li class="box_1">
+                <div class="iconic_21">
+
+                    <i class="fa-solid fa-computer marged"></i>
+                </div>
+                <h1 class="marketing">Marketing Strategy</h1>
+                <p class="molor">Porem asum molor sit amet, consectetur <br> adipiscing do miusmod tempor.</p>
+            </li>
+            <li class="box_1">
+                <div class="iconic_21">
+                    <i class="fa-solid fa-bars-progress marged"></i>
+                </div>
+                <h1 class="marketing">Interior design</h1>
+                <p class="molor">Porem asum molor sit amet, consectetur <br> adipiscing do miusmod tempor.</p>
+            </li>
+            <li class="box_1">
+                <div class="iconic_21">
+
+                    <i class="fa-solid fa-wand-magic-sparkles marged"></i>
+
+                </div>
+                <h1 class="marketing">Digital services</h1>
+                <p class="molor">Porem asum molor sit amet, consectetur <br> adipiscing do miusmod tempor.</p>
+            </li>
+        </div>
+    </section>
+    <section class="section_4">
+
+        <div class="child_8">
+            <div class="child_8_1">
+                <p class="member">T &nbsp;E &nbsp;A &nbsp;M&nbsp; M&nbsp; E&nbsp; M&nbsp; B&nbsp; E&nbsp; R </p>
+                <h1 class="awesome">Our Awesome Creative <br>
+                    Team Member</h1>
+                <div class="animation aranged_1">
+                    <div class="animaat_child">
+                        <div class="ball"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="child_8_2">
+                <button class="v_a">View All Member</button>
+            </div>
+        </div>
+        <div class="child_9">
+            <!-- <img class="circle_9" src="./t119.png" alt="">  -->
+
+            <div class="heading_3">
+                <li class="card_1">
+                    <img class="pic" src="./t124.jpg" alt="">
+                    <h1 class="david">David Malaan</h1>
+                    <p class="ceo">CEO</p>
+                </li>
+                <li class="card_1">
+                    <img class="pic" src="./t125.jpg" alt="">
+                    <h1 class="david">Andress Johnee</h1>
+                    <p class="ceo">DIRECTOR</p>
+                </li>
+                <li class="card_1">
+                    <img class="pic" src="./t126.jpg" alt="">
+                    <h1 class="david">Michal Balak</h1>
+                    <p class="ceo">FOUNDER</p>
+                </li>
+                <li class="card_1">
+                    <img class="pic" src="./t127.jpg" alt="">
+                    <h1 class="david">Jemes Rodrigz </h1>
+                    <p class="ceo">MANAGER</p>
+                </li>
+            </div>
+        </div>
+    </section>
+    <section class="section_5">
+        <p class="member_1">F &nbsp;E &nbsp;A &nbsp;T&nbsp; U&nbsp; R&nbsp; E&nbsp; C&nbsp; A&nbsp; S&nbsp; E&nbsp;</p>
+        <h1 class="case">Our Latest Case Study <br>
+            For Your Business</h1>
+        <div class="heading_6">
+            <li class=" pic_13">
+                <div class="content">
+                </div>
+                <div class="mini">
+                    <h1 class="solution">Solution For Marketing </h1>
+                    <p class="d_m">Design Marketing</p>
+                </div>
+
+
+                <img class="pic_22" src="./t128.jpg" alt="">
+
+                <div class="content">
+                </div>
+                <div class="mini">
+                    <h1 class="solution">Solution For Marketing </h1>
+                    <p class="d_m">Design Marketing</p>
+                </div>
+
+            </li>
+            <li class=" pic_13">
+                <img class="pic_22" src="./t129.jpg" alt="">
+
+                <div class="content">
+                </div>
+                <div class="mini">
+                    <h1 class="solution">Solution For Marketing </h1>
+                    <p class="d_m">Design Marketing</p>
+                </div>
+
+            </li>
+            <li class=" pic_13">
+                <img class="pic_22" src="./t130.jpg" alt="">
+                <div class="content">
+                </div>
+                <div class="mini">
+                    <h1 class="solution">Solution For Marketing </h1>
+                    <p class="d_m">Design Marketing</p>
+                </div>
+            </li>
+            <li class=" pic_13">
+                <img class="pic_22" src="./t131.jpg" alt="">
+                <div class="content">
+                </div>
+                <div class="mini">
+                    <h1 class="solution">Solution For Marketing </h1>
+                    <p class="d_m">Design Marketing</p>
+                </div>
+            </li>
+        </div>
+    </section>
+    <section class="section_6">
+
+        <p class="pro">Process</p>
+        <h1 class="o_w">Our Working Process</h1>
+        <div class="animation aranged_3">
+            <div class="animaat_child">
+                <div class="ball"> </div>
+            </div>
+        </div>
+
+        <div class="heading_7">
+            <li class="circle_scale">
+                <div class="b_ball">
+                    <div class="m_ball"></div>
+                    <div class="s_ball">
+                        <p class="numeric">1</p>
+                    </div>
+                </div>
+                <div class="d_line"></div>
+
+                <h3 class="select">Select A Project</h3>
+                <p class="techno">We have the technology and industry <br> expertise to develop solutions that can <br>
+                    connect people and businesses across <br> variety of mobile devices.
+
+                </p>
+
+            </li>
+
+
+            <li class="circle_scale">
+                <div class="b_ball">
+                    <div class="m_ball"></div>
+                    <div class="s_ball">
+                        <p class="numeric">2</p>
+                    </div>
+                </div>
+                <div class="d_line"></div>
+
+                <h3 class="select"> Project Analysis</h3>
+                <p class="techno">We have the technology and industry <br> expertise to develop solutions that can <br>
+                    connect people and businesses across <br> variety of mobile devices.
+                </p>
+
+            </li>
+
+            <li class="circle_scale">
+                <div class="b_ball regulate_1">
+                    <div class="m_ball"></div>
+                    <div class="s_ball">
+                        <p class="numeric">3</p>
+                    </div>
+                </div>
+
+                <h3 class="select regulate_2">deliver Result</h3>
+                <p class="techno">We have the technology and industry <br> expertise to develop solutions that can <br>
+                    connect people and businesses across <br> variety of mobile devices.
+                </p>
+            </li>
+        </div>
+    </section>
+    <section class="section_7">
+
+        <p class="value">+880 013 143 206</p>
+        <h1 class="request">
+            To Make Requests For The <br>
+            Further Information</h1>
+
+        <button class="j_W_N">Join With Now </button>
+
+
+        <div class="m_play">
+            <div class="play_3"></div>
+            <div class="play_2">
+                <i class="fa-solid fa-play edit"></i>
+            </div>
+
+        </div>
+    </section>
+    <section class="section_8">
+        <div class="parent_5">
+            <div class="card_2">
+                <h1 class="paras">15K</h1>
+                <p class="happy">Happy Clients</p>
+            </div>
+            <div class="card_2">
+                <h1 class="paras">1280+</h1>
+                <p class="happy">Account Number</p>
+
+
+            </div>
+            <div class="card_2">
+                <h1 class="paras">10K</h1>
+                <p class="happy">Finised Projeacts</p>
+
+
+            </div>
+            <div class="card_2">
+
+                <h1 class="paras">992+</h1>
+                <p class="happy">Wins Award</p>
+
+            </div>
+
+        </div>
+        <div class="parent_66">
+            <p class="test">TESTOMINAL</p>
+            <h1 class="says">What Says <br>
+                Our Happy Clients</h1>
+            <div class="animation aranged_1 regulater">
+                <div class="animaat_child">
+                    <div class="ball"> </div>
+                </div>
+            </div>
+            <div class="heading_8">
+                <div class="card_3">
+                    <div class="card_3_3">
+                        <p class="loram">loram ipusam dolor sit amet,<br>consectur adipsing elit sed do <br> eiused
+                            tempor inciduit ul labour et <br>dolore magne aliqua </p>
+                    </div>
+                    <div class="parent_main_1">
+
+                        <div class="photo">
+                            <img class="photo" src="./t138.jpg" alt="">
+                        </div>
+                        <div class="side_card_1">
+
+                            <div class="p_star">
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star_1"></i>
+
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star_1"></i>
+
+                                </li>
+
+                                <h3 class="jamal">Jamal Vuiyan </h3>
+                                <p class="manager">Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_3">
+                    <div class="card_3_3">
+                        <p class="loram">loram ipusam dolor sit amet,<br>consectur adipsing elit sed do <br> eiused
+                            tempor inciduit ul labour et <br>dolore magne aliqua </p>
+                    </div>
+                    <div class="parent_main_1">
+                        <div class="photo">
+                            <img class="photo" src="./t136.jpg" alt="">
+                        </div>
+                        <div class="side_card_1">
+                            <div class="p_star">
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star_1"></i>
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star_1"></i>
+                                </li>
+                                <h3 class="jamal">Abraham Johne </h3>
+                                <p class="manager">IT manager</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="card_3">
+
+                    <div class="card_3_3">
+                        <p class="loram">loram ipusam dolor sit amet,<br>consectur adipsing elit sed do <br> eiused
+                            tempor inciduit ul labour et <br>dolore magne aliqua </p>
+                    </div>
+                    <div class="parent_main_1">
+
+                        <div class="photo">
+                            <img class="photo" src="./t137.jpg" alt="">
+                        </div>
+                        <div class="side_card_1">
+
+                            <div class="p_star">
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star"></i>
+
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star_1"></i>
+
+                                </li>
+                                <li class="c_star">
+                                    <i class="fa-solid fa-star star_1"></i>
+
+                                </li>
+
+                                <h3 class="jamal">Fatima jahra  </h3>
+                                <p class="manager">Web Developer</p>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_9">
+        <div class="img_22_1">
+            <img class="img_22" src="t119.png" alt="">
+        </div>
+        <div class="text_5">
+            <p class="get_1">GET QUOTE</p>
+            <h1 class="an">Make An <br>
+                Free Consultant</h1>
+            <div class="animation aranged_5">
+                <div class="animation arrgend_5">
+                    <div class="animaat_child">
+                        <div class="ball"> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marged_1">
+
+                <input class="n_1" type="text" placeholder="Name">
+                <input class="n_1" type="text" placeholder="Email">
+                <input class="n_2" type="text" placeholder="Phone ">
+                <input class="n_2" type="text" placeholder="Website ">
+                <textarea class="text_334" name="" id="" cols="30" rows="10" placeholder="your Message"></textarea>
+            </div>
+            <button class="free">Free Consultancy</button>
+
+    </section>
+
+    <section class="section_10">
+        <div class="con_1">
+            <div class="parent_7">
+
+                <p class="latest">LATEST ARTICLE</p>
+
+                <h1 class="seen_22">
+                    See Our Latest <br>
+                    Blog Posts</h1>
+                <div class="animation aranged_6">
+                    <div class="animation arrgend_5">
+                        <div class="animaat_child">
+                            <div class="ball"> </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="see_1">See Blogs</button>
+            </div>
+
+        </div>
+        <div class="parent_8">
+            <li class="card_4">
+                <div class="img_3_1">
+
+                    <img class="img_3_2" src="./t139.jpg" alt="">
+                    <div class="word">
+                        <p class="text_7">WORDPRESS</p>
+                    </div>
+
+                </div>
+                <div class="techno_1">
+                    <div class="oct_1">
+                        <p class="tec_5">Techno</p>
+                    </div>
+                    <div class="oct_2">
+                        <p class="tec_6">Octuber22,</p>
+                    </div>
+                </div>
+                <h1 class="use">How can use your latest news by techno</h1>
+                <p class="digital">digital tranformation in healthcare in <br> 2022: lorem lorpen sit almet <br>
+                    consult
+                </p>
+                <p class="more">Read More + </p>
+
+            </li>
+            <li class="card_4">
+                <div class="img_3_1">
+
+                    <img class="img_3_2" src="./t140.jpg" alt="">
+                    <div class="word">
+                        <p class="text_7">DEVELOPMENT</p>
+                    </div>
+
+                </div>
+                <div class="techno_1">
+                    <div class="oct_1">
+                        <p class="tec_5">Techno</p>
+                    </div>
+                    <div class="oct_2">
+                        <p class="tec_6">Octuber22,</p>
+                    </div>
+                </div>
+                <h1 class="use">How can use your latest news by techno</h1>
+                <p class="digital">digital tranformation in healthcare in <br> 2022: lorem lorpen sit almet <br>
+                    consult
+                </p>
+                <p class="more">Read More + </p>
+
+            </li>
+            <li class="card_4">
+                <div class="img_3_1">
+
+                    <img class="img_3_2" src="./t141.jpg" alt="">
+                    <div class="word">
+                        <p class="text_7">WORDPRESS</p>
+                    </div>
+
+                </div>
+                <div class="techno_1">
+                    <div class="oct_1">
+                        <p class="tec_5">Techno</p>
+                    </div>
+                    <div class="oct_2">
+                        <p class="tec_6">Octuber22,</p>
+                    </div>
+                </div>
+                <h1 class="use">How can use your latest news by techno</h1>
+                <p class="digital">digital tranformation in healthcare in <br> 2022: lorem lorpen sit almet <br>
+                    consult
+                </p>
+                <p class="more">Read More + </p>
+            </li>
+        </div>
+    </section>
+    <section class="section_11">
+        <div class="parent_9">
+            <h1 class="sub">Subscribe Our Newsletter</h1>
+            <div class="parent_77">
+
+                <input class="e_y_e" type="text" placeholder="Enter Your Email ">
+                <button class="sub_1">Subcribe</button>
+            </div>
+        </div>
+        <div class="parent_10">
+            <div class="part">
+                <div class="part_1">
+                    <img src="./t146.png" alt="" height="100%" width="100%">
+                </div>
+                <h4 class="stra">Completely strategize client-cent <br> Phosfluorescently iterate efficient <br>
+                    internal or organic.</h4>
+                <h1 class="us">Follow Us </h1>
+                <div class="part_2">
+                    <li class="social">
+                        <i class="fa-brands fa-facebook fb_22"></i>
+                    </li>
+                    <li class="social">
+                        <i class="fa-brands fa-youtube fb_22"></i>
+                    </li>
+                    <li class="social">
+                        <i class="fa-brands fa-square-twitter fb_22"></i>
+                    </li>
+                    <li class="social">
+
+                        <i class="fa-brands fa-instagram fb_22"></i>
+                    </li>
+                </div>
+            </div>
+            <div class="child_12">
+                <h1 class="quick">Quick Links</h1>
+                <li class="link">Home</li>
+                <li class="link">About us</li>
+                <li class="link">Contact us</li>
+                <li class="link">Service</li>
+                <li class="link">Our Team</li>
+            </div>
+            <div class="child_13">
+                <h1 class="quick">Popular Post</h1>
+                <li class="post_1">
+                    <div class="t-1">
+                        <img class="pho" src="./t147.jpg" alt="">
+                    </div>
+                    <h2 class="tik">Tiktok Illegally collecting <br> data sharing</h2>
+                    <p class="oct_3">October 22, 2020</p>
+                </li>
+
+                <li class="post">
+                    <h1 class="quick_33">Popular Post</h1>
+                      <div class="t-1">
+                        <img class="pho" src="./t148.jpg" alt="">
+                    </div>
+                    <h2 class="tik">Tiktok Illegally collecting <br> data sharing</h2>
+                    <p class="oct_3">October 22, 2020</p>
+
+            
+
+            </div>
+
+            <div class="child_15">
+                <h1 class="quick_1">Contact Info</h1>
+                <li class="part_22">
+                    <h2 class="LOC">Location</h2>
+                    <p class="city">newYork city street#12 </p>
+                </li>
+                <li class="part_22">
+                    <h2 class="LOC">Email Us</h2>
+                    <p class="city">example@.gmail </p>
+
+
+                </li>
+                <li class="part_22">
+                    <h2 class="LOC">Phone Us</h2>
+                    <p class="city">012(2243)445 </p>
+
+                </li>
+            </div>
+            <div class="last">
+                
+                <div class="line"></div>
+                <h3 class="reserved">© 2022 Techno.All Rights Reserved.</h3>
+                <p> </p>
+                
+                <h3 class="plicy"> Privacy Policy</h3>
+                <h3 class="plicy_1">Terms & Conditions</h3>
+                <h3 class="plicy_2">Contact Us</h3>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+</body>
+
+</html>
